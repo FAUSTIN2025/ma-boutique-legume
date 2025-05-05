@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mini Boutique de Légumes</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f9f9f9;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #4caf50;
+        color: white;
+        text-align: center;
+        padding: 20px 10px;
+      }
+
+      h1 {
+        margin: 0;
+      }
+
+      .catalogue {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+      }
+
+      .produit {
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin: 15px;
+        width: 220px;
+        text-align: center;
+        padding: 15px;
+      }
+
+      .produit img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 8px;
+      }
+
+      .produit h2 {
+        font-size: 18px;
+        margin: 10px 0 5px;
+      }
+
+      .produit p {
+        font-size: 16px;
+        color: #555;
+      }
+
+      .bouton {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 10px 15px;
+        background-color: #4caf50;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background 0.3s;
+      }
+
+      .bouton:hover {
+        background-color: #45a049;
+      }
+
+      footer {
+        text-align: center;
+        padding: 10px;
+        background: #eee;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Mini Boutique de Légumes</h1>
+      <p>Commandez frais, local et rapide à Lubumbashi</p>
+    </header>
+
+    <div class="catalogue">
+      <div class="produit">
+        <img
+          src="https://cdn.futura-sciences.com/sources/images/tomate-legume.jpg"
+          alt="Tomates"
+        />
+        <h2>Tomates</h2>
+        <p>1 500 FC / kg</p>
+        <a
+          class="bouton"
+          href="https://wa.me/243990533663?text=Bonjour, je souhaite commander 1kg de Tomates."
+          target="_blank"
+          >Commander</a
+        >
+      </div>
+
+      <div class="produit">
+        <img
+          src="https://www.academiedugout.fr/images/15721/1200-auto/fotolia_55631648_subscription_xl-copy.jpg?poix=50&poiy=50"
+          alt="Oignons"
+        />
+        <h2>Oignons</h2>
+        <p>1 000 FC / kg</p>
+        <a
+          class="bouton"
+          href="https://wa.me/243990533663?text=Bonjour, je souhaite commander 1kg d'oignons."
+          target="_blank"
+          >Commander</a
+        >
+      </div>
+
+      <div class="produit">
+        <img
+          src="https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/2461/live/891f5c20-99dd-11ee-91bf-230bfab3fcba.jpg.webp"
+          alt="Épinards"
+        />
+        <h2>Épinards</h2>
+        <p>800 FC / botte</p>
+        <a
+          class="bouton"
+          href="https://wa.me/243990533663?text=Bonjour, je souhaite commander une botte d'épinards."
+          target="_blank"
+          >Commander</a
+        >
+      </div>
+
+      <div class="produit">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoWhp-Ro5APgWakLJ1jV3r3O2B75v50Lk9rQ&s"
+          alt="Poivrons"
+        />
+        <h2>Poivrons</h2>
+        <p>1 200 FC / kg</p>
+        <a
+          class="bouton"
+          href="https://wa.me/243990533663?text=Bonjour, je souhaite commander 1kg de poivrons."
+          target="_blank"
+          >Commander</a
+        >
+      </div>
+    </div>
+
+    <footer>&copy; 2025 Mini Boutique de Légumes - Lubumbashi</footer>
+  </body>
+</html>
